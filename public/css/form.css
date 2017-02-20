@@ -1,0 +1,46 @@
+form {
+	text-align: center;
+}
+
+.input-group {
+	margin: 16px auto;
+}
+
+.input-group label {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 4px 8px;
+}
+
+.input-group textarea {
+	width: 400px;
+}
+
+.input-group select {
+	width: 30%;
+	max-width: 200px;
+	min-width: 150px;
+	height: 28px;
+	vertical-align: middle;
+    margin: 0 10px;
+}
+
+.input-group input.has-error,
+.input-group textarea.has-error {
+	border: 1px solid red;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+	border: 1px solid #0863d3;
+}

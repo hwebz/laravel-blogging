@@ -1,0 +1,85 @@
+body {
+	font-size: 16px;
+	font-family: "Roboto", Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: #ad67d2;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #8900c6;
+}
+
+h3 {
+	margin: 0;
+}
+
+.main {
+	width: 700px;
+	margin: 32px auto;
+}
+
+.btn {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background-color: #ffecd2;
+	font-size: inherit;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: white;
+	color: #8900c6;
+}
+
+.btn.danger {
+	color: #e5003c;
+	border: 1px solid #e5003c;
+	background-color: #ffc4be;
+}
+
+.btn.danger:hover,
+.btn.danger:active {
+	background-color: #e5003c;
+	color: white;
+}
+
+.blog-post {
+	border: 2px solid #ad67d2;
+	border-radius: 8px 0 8px 0;
+	padding: 16px;
+	margin-bottom: 32px;
+}
+
+.subtitle {
+	color: darkgray;
+	font-size: 14px;
+}
+
+.pagination {
+	font-size: 28px;
+}
+
+.pagination a {
+	padding: 0 16px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	padding: 5px;
+	background: #ccc;
+	text-align: center;
+	width: 100%;
+}
+
+footer * {
+	margin: 0;
+}
